@@ -4,7 +4,7 @@
   margin-left: 10px;
   margin-right: 10px;
   width: 700px;
-  height: 1200px;
+  height: 1397px;
 
   display: flex;
   flex-direction: column;
@@ -18,11 +18,16 @@
 }
 
 .big-card__description > p{
+  margin-left: 15px;
   margin-top: 40px;
+}
+
+
+.big-card__description > p > a{
   color: rgb(206, 198, 198);
   font-size: 25px;
-  margin-left: 15px;
   line-height: 1.5;
+
 }
 
 .big-card__photo > img{
