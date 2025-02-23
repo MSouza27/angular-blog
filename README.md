@@ -1,5 +1,5 @@
 ```markdown
-# AngularBlog
+AngularBlog
 
 Este projeto foi gerado usando [Angular CLI](https://github.com/angular/angular-cli) versão 19.1.8.
 
@@ -14,7 +14,7 @@ Funcionalidades Principais
 - Rotas Dinâmicas: A navegação entre artigos é feita através de rotas dinâmicas, permitindo que o conteúdo seja carregado com base no ID do artigo.
 - Links Externos: O menu superior contém links para o LinkedIn, GitHub e YouTube do desenvolvedor.
 
-### Estrutura do Projeto
+Estrutura do Projeto
 
 - `dataFake`: Um conjunto de dados mockados que simula uma API de backend, contendo informações como ID, título, descrição e imagem de capa dos artigos.
 - `ContentComponent`: Responsável por exibir o conteúdo completo de um artigo com base no ID.
@@ -74,7 +74,7 @@ Se você deseja contribuir para este projeto, sinta-se à vontade para abrir uma
 Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 ```
 
-### Explicação das Atualizações:
+Explicação das Atualizações:
 1. Seção "Sobre o Projeto": Adicionei uma descrição detalhada do projeto, incluindo suas funcionalidades principais e estrutura.
 2. Estrutura do Projeto: Expliquei brevemente como o projeto está organizado, mencionando os principais componentes e o uso de dados mockados.
 3. Links Externos: Adicionei uma menção aos links externos no menu superior.
