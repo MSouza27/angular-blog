@@ -4,10 +4,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-menu-title',
   templateUrl: './menu-title.component.html',
-  styleUrls: ['./menu-title.component.css']
+  styleUrls: ['./menu-title.component.css', './menu-title.reponsive.component.css']
 })
 export class MenuTitleComponent implements OnInit {
-  fullText: string = "MAGNO BLOG";
+  fullText: string = "MAGNO SOUZA BLOG";
   displayedText: string = "";
   index: number = 0;
 
