@@ -3,25 +3,25 @@
 
 Este projeto foi gerado usando [Angular CLI](https://github.com/angular/angular-cli) versão 19.1.8.
 
-## Sobre o Projeto
+Sobre o Projeto
 
-O **AngularBlog** é um blog desenvolvido em Angular que permite a exibição de artigos e posts. O projeto utiliza componentes reutilizáveis e rotas dinâmicas para carregar conteúdos específicos com base no ID do artigo. O blog é alimentado por um conjunto de dados mockados (`dataFake`) que simula uma API de backend.
+O AngularBlog** é um blog desenvolvido em Angular que permite a exibição de artigos e posts. O projeto utiliza componentes reutilizáveis e rotas dinâmicas para carregar conteúdos específicos com base no ID do artigo. O blog é alimentado por um conjunto de dados mockados (`dataFake`) que simula uma API de backend.
 
-### Funcionalidades Principais
+Funcionalidades Principais
 
-- **Exibição de Artigos**: Os artigos são carregados dinamicamente com base no ID, exibindo título, descrição e imagem de capa.
-- **Componentes Reutilizáveis**: O projeto utiliza componentes como `content`, `big-card`, `small-card` e `menu-bar` para estruturar o layout e facilitar a manutenção.
-- **Rotas Dinâmicas**: A navegação entre artigos é feita através de rotas dinâmicas, permitindo que o conteúdo seja carregado com base no ID do artigo.
-- **Links Externos**: O menu superior contém links para o LinkedIn, GitHub e YouTube do desenvolvedor.
+- Exibição de Artigos: Os artigos são carregados dinamicamente com base no ID, exibindo título, descrição e imagem de capa.
+- Componentes Reutilizáveis: O projeto utiliza componentes como `content`, `big-card`, `small-card` e `menu-bar` para estruturar o layout e facilitar a manutenção.
+- Rotas Dinâmicas: A navegação entre artigos é feita através de rotas dinâmicas, permitindo que o conteúdo seja carregado com base no ID do artigo.
+- Links Externos: O menu superior contém links para o LinkedIn, GitHub e YouTube do desenvolvedor.
 
 ### Estrutura do Projeto
 
-- **`dataFake`**: Um conjunto de dados mockados que simula uma API de backend, contendo informações como ID, título, descrição e imagem de capa dos artigos.
-- **`ContentComponent`**: Responsável por exibir o conteúdo completo de um artigo com base no ID.
-- **`BigCardComponent` e `SmallCardComponent`**: Componentes reutilizáveis para exibir resumos de artigos em diferentes layouts.
-- **`MenuBarComponent`**: Componente que exibe links para redes sociais e outras páginas.
+- `dataFake`: Um conjunto de dados mockados que simula uma API de backend, contendo informações como ID, título, descrição e imagem de capa dos artigos.
+- `ContentComponent`: Responsável por exibir o conteúdo completo de um artigo com base no ID.
+- `BigCardComponent` e `SmallCardComponent`**: Componentes reutilizáveis para exibir resumos de artigos em diferentes layouts.
+- `MenuBarComponent`: Componente que exibe links para redes sociais e outras páginas.
 
-## Servidor de Desenvolvimento
+Servidor de Desenvolvimento
 
 Para iniciar um servidor de desenvolvimento local, execute:
 
@@ -55,14 +55,6 @@ ng build
 
 Isso irá compilar seu projeto e armazenar os artefatos de build no diretório `dist/`. Por padrão, o build de produção otimiza sua aplicação para desempenho e velocidade.
 
-## Executando Testes Unitários
-
-Para executar testes unitários com o test runner [Karma](https://karma-runner.github.io), use o seguinte comando:
-
-```bash
-ng test
-```
-
 ## Executando Testes End-to-End (E2E)
 
 Para testes end-to-end (E2E), execute:
@@ -83,7 +75,7 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 ```
 
 ### Explicação das Atualizações:
-1. **Seção "Sobre o Projeto"**: Adicionei uma descrição detalhada do projeto, incluindo suas funcionalidades principais e estrutura.
-2. **Estrutura do Projeto**: Expliquei brevemente como o projeto está organizado, mencionando os principais componentes e o uso de dados mockados.
-3. **Links Externos**: Adicionei uma menção aos links externos no menu superior.
-4. **Contribuição e Licença**: Incluí seções padrão para contribuição e licença, que são comuns em projetos open-source.
+1. Seção "Sobre o Projeto": Adicionei uma descrição detalhada do projeto, incluindo suas funcionalidades principais e estrutura.
+2. Estrutura do Projeto: Expliquei brevemente como o projeto está organizado, mencionando os principais componentes e o uso de dados mockados.
+3. Links Externos: Adicionei uma menção aos links externos no menu superior.
+4. Contribuição e Licença**: Incluí seções padrão para contribuição e licença, que são comuns em projetos open-source.
